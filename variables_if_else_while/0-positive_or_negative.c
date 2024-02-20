@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*This programa will print if the random number is positive,
+/**
+ * This programa will print if the random number is positive,
  * negative or zero.
  */
 
