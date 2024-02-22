@@ -4,6 +4,8 @@
 * _isupper - Shows 1 if the input is a
 * lowercase character. Another cases, shows 0
 *
+* @c: The char
+*
 * Return: 1 for lowercase. 0 for the rest.
 */
 
