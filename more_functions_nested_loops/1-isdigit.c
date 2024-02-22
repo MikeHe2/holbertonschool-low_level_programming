@@ -9,7 +9,7 @@
 * Return: 1 for lowercase. 0 for the rest.
 */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
 	if (c >= 0 && c <= 9)
 	{
