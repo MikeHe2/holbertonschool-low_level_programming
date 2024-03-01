@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-//Primer proyecto de pointers, arrays y strings.
 
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
@@ -16,7 +15,6 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 int _putchar(char c);
 
-//Segundo proyecto de pointers, arrays y strings.
 
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
@@ -26,7 +24,6 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
 
-//Tercer proyecto de pointers, arrays y strings.
 
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
