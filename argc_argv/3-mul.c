@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		num2 = atoi(argv[2]);
 		resul = num1 * num2;
 	
-		printf ("%d\n", resul);
+		printf("%d\n", resul);
 
 		return (0);
 	}
