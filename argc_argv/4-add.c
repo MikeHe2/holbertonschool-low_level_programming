@@ -9,30 +9,28 @@
  * Return: 0 o 1.
  */
 
+
 int main(int argc, char *argv[])
-
 {
-
 	int a, b, c, suma, num;
 
+	suma = 0;
 
-	for (b = 0; b < argc; b++)
+	for (a = 1; a < argc; a++)
 	{
-		for (c = 0; argv[b][c] != '\0'; c++)
+		for (b = 0; argv[a][b] != '\0'; b++)
 		{
-			if (argv[b][c] > '9' || argv[b][c] < '0')
+			if (argv[a][b] > '9' || argv[a][b] < '0')
 			{
-				printf("Error\n");
-
+				puts("Error");
 				return (1);
 			}
 		}
 	}
 
-	for (a = 1; a < argc; a++)
+	for (c = 1; c < argc; c++)
 	{
-		num = atoi(argv[a]);
-
+		num = atoi(argv[c]);
 		if (num >= 0)
 		{
 			suma += num;
