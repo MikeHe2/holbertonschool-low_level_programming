@@ -3,6 +3,10 @@
 
 /**
  * struct dog - Hola
+ *
+ * @name: Name of dog.
+ * @age: Age of the dog.
+ * @owner: Name of the owner.
  */
 
 struct dog
